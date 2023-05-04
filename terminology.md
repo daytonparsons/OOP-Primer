@@ -146,3 +146,46 @@
     void stop() {
         engine.stop();
     }
+
+#### Encapsulation / Public, Private, and Protected 
+>Encapsulation is how we can control access to our data in a class/struct. A class is Private by default but a struct is Public by default. 
+>That's why we have to be careful when creating a class or struct. I will give a code example below of how we use Encapsulation in a class. 
+
+    class Car {
+    private:
+    string make;
+    string model;
+    int year;
+
+    public:
+    Car(string m, string mdl, int y) {
+        make = m;
+        model = mdl;
+        year = y;
+     }
+
+    void display() {
+        cout << year << " " << make << " " << model << endl;
+    }
+
+    void setYear(int y) {
+        year = y;
+    }
+
+    int getYear() {
+        return year;
+    }
+    };
+
+    int main() {
+    Car c("Mini", "Cooper S", 2022);
+
+    c.display();
+
+    //c.make = "Volkswagen"; // This line will cause a compile-time error
+    c.setYear(2023);
+    cout << "New year: " << c.getYear() << endl;
+
+    return 0;
+> This demonstrates Encapsulation in action and shows how the details of "Car" are hidden from outside code. 
+
