@@ -19,11 +19,11 @@
 
 > attributes and properties are used to give objects (entities) a description
 
-  class Rectangle {
-    public:
-        int width;
-        int height;
-    };
+>class Rectangle {
+>    public:
+>       int width;
+>        int height;
+>    };
     
 > in the above code width and height are attributes/properties
 
