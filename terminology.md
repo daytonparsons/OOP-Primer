@@ -27,7 +27,7 @@
     
 > in the above code width and height are attributes/properties
 
-><![image](https://user-images.githubusercontent.com/123118802/236092749-ef0cf38b-ee79-4ead-8fb6-e3516ce19a58.png)
+>![image](https://user-images.githubusercontent.com/123118802/236092749-ef0cf38b-ee79-4ead-8fb6-e3516ce19a58.png)
 
 
 
