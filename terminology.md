@@ -45,8 +45,8 @@
 
 
 #### Method
->>class Car {
-public:
+    >>class Car {
+     public:
     string make;
     string model;
     int year;
@@ -62,13 +62,13 @@ public:
     void drive() {
         cout << "The " << make << " " << model << " is driving." << endl;
     }
-};
+    };
 
-int main() {
-    Car mini;
-    mini.make = "Mini";
-    mini.model = "Cooper S";
-    mini.year = 2022;
+     int main() {
+     Car mini;
+     mini.make = "Mini";
+     mini.model = "Cooper S";
+     mini.year = 2022;
 
     Car polo;
     polo.make = "Volkswagen";
@@ -85,7 +85,7 @@ int main() {
     beetle.stop();
 
     return 0;
-}
+    }
 > the above code shows us how we can use methods to put our class and our objects to use!
 > essentially metohds are defined within a class and used to perform operations on the objects within that class. 
 > they can also be reffered to as member functions. 
@@ -96,12 +96,15 @@ int main() {
 > it is stored in memory once for the entire class rather than once for each object. 
 > if we want to add a static memeber to our above car class ^^ we can do so like this 
 
-> class Car {
- public:
+    
+   
+    class Car {
+      public:
     string make;
     string model;
     int year;
     static int count;
+    
 
     Car(string m, string mdl, int y) {
         make = m;
