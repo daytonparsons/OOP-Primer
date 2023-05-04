@@ -116,4 +116,33 @@
     static void displayCount() {
         cout << "There are " << count << " cars." << endl;
     }
-};
+    };
+    
+#### Composition 
+>composition is when a subckass contains an object or objects, of another class as its member variables. 
+>if we use the same class "car" that we have been using for these definitions. we can add onto it to show composition. if we were to make class called "Engine" like this. 
+
+    class Engine {
+    public:
+    void start() {
+        cout << "Engine started." << endl;
+    }
+
+    void stop() {
+        cout << "Engine stopped." << endl;
+    }
+    };
+    
+>we can add a data type of type "Engine" called "engine" into our Car class and have member functions to start and stop the enginer and that would be an example of composition. 
+    
+    class Car {
+    public:
+    Engine engine; 
+    
+    void start() {
+        engine.start();
+    }
+
+    void stop() {
+        engine.stop();
+    }
