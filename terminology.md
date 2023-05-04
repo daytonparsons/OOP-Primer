@@ -39,7 +39,50 @@
 
 
 #### Object
-> This is your object definition....
+> shown in the above picture objects are essentially an instance of a given class, so the three types of cars
+> polo, mini, and beetle are objects of the class "car"
+
+>class Car {
+public:
+    string make;
+    string model;
+    int year;
+
+    void start() {
+        cout << "The " << make << " " << model << " has started." << endl;
+    }
+
+    void stop() {
+        cout << "The " << make << " " << model << " has stopped." << endl;
+    }
+
+    void drive() {
+        cout << "The " << make << " " << model << " is driving." << endl;
+    }
+};
+
+int main() {
+    Car mini;
+    mini.make = "Mini";
+    mini.model = "Cooper S";
+    mini.year = 2022;
+
+    Car polo;
+    polo.make = "Volkswagen";
+    polo.model = "Polo GTI";
+    polo.year = 2021;
+
+    Car beetle;
+    beetle.make = "Volkswagen";
+    beetle.model = "Beetle";
+    beetle.year = 2020;
+
+    mini.start();
+    polo.drive();
+    beetle.stop();
+
+    return 0;
+}
 
 #### Method
 > This is your method definition.....
