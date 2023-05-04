@@ -86,7 +86,9 @@ int main() {
 
     return 0;
 }
-
+> the above code shows us how we can use methods to put our class and our objects to use!
+> essentially metohds are defined within a class and used to perform operations on the objects within that class. 
+> they can also be reffered to as member functions. 
 
 
 #### ETC...
