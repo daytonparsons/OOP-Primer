@@ -42,7 +42,10 @@
 > shown in the above picture objects are essentially an instance of a given class, so the three types of cars
 > polo, mini, and beetle are objects of the class "car"
 
->class Car {
+
+
+#### Method
+>>class Car {
 public:
     string make;
     string model;
@@ -84,7 +87,6 @@ int main() {
     return 0;
 }
 
-#### Method
-> This is your method definition.....
+
 
 #### ETC...
