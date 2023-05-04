@@ -91,4 +91,26 @@ int main() {
 > they can also be reffered to as member functions. 
 
 
-#### ETC...
+#### Class Variable/Static
+> class variable or static data member is created inside the class with the keyword "static"
+> it is stored in memory once for the entire class rather than once for each object. 
+> if we want to add a static memeber to our above car class ^^ we can do so like this 
+
+> class Car {
+ public:
+    string make;
+    string model;
+    int year;
+    static int count;
+
+    Car(string m, string mdl, int y) {
+        make = m;
+        model = mdl;
+        year = y;
+        count++;
+    }
+
+    static void displayCount() {
+        cout << "There are " << count << " cars." << endl;
+    }
+};
