@@ -14,6 +14,21 @@
 ><![image](https://user-images.githubusercontent.com/123118802/236091364-acd1c1fc-ee47-4a09-8ee0-b5cf887c84b5.png)
 
 
+
+#### Attributes/Properties 
+
+> attributes and properties are used to give objects (entities) a description
+> class Rectangle {
+    public:
+        int width;
+        int height;
+  };
+> in the above code width and height are attributes/properties
+
+><![image](https://user-images.githubusercontent.com/123118802/236092749-ef0cf38b-ee79-4ead-8fb6-e3516ce19a58.png)
+
+
+
 #### Class
 
 > This is your definition of what a class is. Using images is A-ok. For example: 
